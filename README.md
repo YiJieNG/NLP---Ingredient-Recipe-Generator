@@ -27,3 +27,6 @@ For every model, I have removed any data having no value (either ingredients or 
 
 #### 2. For Recipe:
 - The reason why ingredients have extra preprocessing step compared to recipe is because recipe is considered as ground truth label, and the expected output of model should be a valid and complete sentence of a recipe. However, we only need a certain information for ingredient thus more preprocessing step is introduced for ingredients compared to recipe.
+
+## Evaluation
+Find out more about the details and result at: https://www.ngyijie.com/projects/ingreRecipeGen 
